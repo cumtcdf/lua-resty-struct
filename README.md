@@ -49,7 +49,10 @@ print(f,e,d,s2,l,q,i)
 
 ### Installation
 
-Download struct.lua and put it into /path/to/resty
+This module can be installed through Luarocks:
+```bash
+$ luarocks install lua-resty-struct
+```
 
 [Back to TOC](#table-of-contents)
 
