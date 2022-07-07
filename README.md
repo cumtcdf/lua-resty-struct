@@ -71,4 +71,4 @@ Work licensed under the MIT License.
 
 ### Other
 
-[`iryont/lua-struct`](https://github.com/openresty/lua-nginx-module#lua_code_cache)
+[`iryont/lua-struct`](https://github.com/iryont/lua-struct)
