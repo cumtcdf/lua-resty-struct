@@ -780,9 +780,11 @@ _M.unpack = function(self, stream)
     return unpack(result)
 end
 
-
-if bit then
-    return _M
-else
-    return nil, "struct need bit module"
+_M.unpack_from = function(self, stream, offset)
+    local from = offset + 1
+    local to = from + self.size - 1
+    local to_unpack = strsub(stream, from, to)
+    return self:unpack(to_unpack)
 end
+
+return _M
